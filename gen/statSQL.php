@@ -37,7 +37,4 @@
         $i = $i + 1;
     echo '<p>'. $evolution['species']['url'] .'</p>';
     echo '<p>'.$des[$i]['flavor_text'].'</p>';
-
-
-    
 ?>

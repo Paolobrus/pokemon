@@ -14,7 +14,9 @@
 </head>
 <body>
     <div class='center'>
-        <?=include('gen/statSQL.php')?>
+        <?php
+         include('gen/statSQL.php');
+        ?>
     </div>
 </body>
 </html>
