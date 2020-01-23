@@ -1,47 +1,52 @@
-.center {
-    padding: 20px 20px;
-    text-align: center;
-    position: relative;
-    width: 800px;
-    margin: 0 auto;
-}
-
-.card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    text-align: center;
-    position: relative;
-    display: inline-block;
-}
-
-
-/* On mouse-over, add a deeper shadow */
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-
-/* Add some padding inside the card container */
-
-.container {
-    padding: 2px 8px;
-    text-align: center;
-    position: relative
-}
-
-ul {
-    list-style-type: none;
-}
-
-.myButton {
-    background-color: #4285F4;
-    border: none;
-    color: white;
-    padding: 4px 16px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
-}
+    .center {
+        padding: 20px 20px;
+        text-align: center;
+        position: relative;
+        width: 800px;
+        margin: 0 auto;
+    }
+    
+    .card {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        text-align: center;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .evolution {
+        /* Add shadows to create the "card" effect */
+        /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;*/
+        text-align: center;
+        position: relative;
+        display: inline-block;
+    }
+    /* On mouse-over, add a deeper shadow */
+    
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    /* Add some padding inside the card container */
+    
+    .container {
+        padding: 2px 8px;
+        text-align: center;
+        position: relative
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    .myButton {
+        background-color: #4285F4;
+        border: none;
+        color: white;
+        padding: 4px 16px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+    }

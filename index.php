@@ -15,8 +15,10 @@
     <title>Home</title>
 </head>
 <body>
+    <?php include('gen/header.php');?>
     <div class="center">
         <h2 style="padding: 20px 20px">Your pokemons are here</h2>
+
         <?php
             include('gen/pokemonList.php');
         ?>

@@ -13,6 +13,7 @@
     <title>Document</title>
 </head>
 <body>
+    <?php include('gen/header.php');?>
     <div class='center'>
         <?php
          include('gen/statSQL.php');

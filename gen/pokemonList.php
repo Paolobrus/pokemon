@@ -10,7 +10,6 @@
         $json = json_decode(file_get_contents('https://pokeapi.co/api/v2/pokemon/'.$row['gameCode']), true);
         //echo $img;
         $img = $json["sprites"]["front_default"];
-
         #echo print_r($row);
         echo '
         
